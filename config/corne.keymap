@@ -35,7 +35,7 @@
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9     &kp N0 &kp ESC 
    &bt LSHFT  &trans	   &trans       &trans	     &trans	  &trans	 &trans	  &kp INS &kp HOME &kp PG_UP &trans &kp RSHFT
-   &kp LCTRL  &trans       &trans       &trans       &studio_unlock	&trans   &trans   &kp DEL   &kp END &kp PG_DN     &trans &KP RCTRL
+   &kp LCTRL  &trans       &trans       &trans       &studio_unlock	&trans   &trans   &kp DEL   &kp END &kp PG_DN     &trans &kp RCTRL
                                     &kp LALT     &trans       &kp SPACE      &kp RET  &mo 3   &kp BSPC
                         >;
                 };
