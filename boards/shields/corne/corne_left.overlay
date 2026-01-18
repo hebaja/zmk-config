@@ -1,0 +1,11 @@
+/ {
+    chosen {
+        zmk,backlight = &backlight;
+    };
+
+    backlight: backlight {
+        compatible = "zmk,backlight-gpio";
+        label = "Backlight";
+        gpios = <&gpio0 15 GPIO_ACTIVE_HIGH>;
+    };
+};
