@@ -1,0 +1,18 @@
+/ {
+    chosen {
+        zmk,underglow = &keyrgbs;
+    };
+
+    keyrgbs: keyrgbs {
+        compatible = "zmk,ws2812";
+        label = "Per Key RGB";
+        chain-length = <42>;
+        color-order = <GRB>;
+        spi-max-frequency = <4000000>;
+        spi-dev = <&spi1>;
+    };
+};
+
+&spi1 {
+    mosi-pin = <NRF_PSEL(SPIM_MOSI, 0, 8)>;
+};
