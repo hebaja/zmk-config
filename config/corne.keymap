@@ -76,10 +76,10 @@
 // | SHFT |     |     |ST_UN|     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &trans &trans &trans &trans &trans     &kp FSLH   &kp N7 &kp N8 &kp N9 &kp PLUS &kp BSPC
-   &trans &trans &trans &trans &trans &trans 	 &kp ASTRK  &kp N4 &kp N5 &kp N6 &trans &trans
-   &trans &trans &trans &trans &trans &trans     &kp MINUS  &kp N3 &kp N2 &kp N1 &trans &trans
-                        &trans &trans &kp SPACE  &kp RET &kp N0  &kp DOT
+   &trans &trans &trans &trans &trans &trans     &kp FSLH   &kp N7 &kp N8 &kp N9 &kp PLUS  &kp BSPC
+   &trans &trans &trans &trans &trans &trans 	 &kp ASTRK  &kp N4 &kp N5 &kp N6 &kp COMMA &trans
+   &trans &trans &trans &trans &trans &trans     &kp MINUS  &kp N1 &kp N2 &kp N3 &kp DOT   &trans
+                        &trans &trans &kp SPACE  &kp RET &transp  &kp N0
                         >;
                 };
         };
